@@ -7,7 +7,13 @@ const fs = require('fs')
 const merge = require('deepmerge')
 const prettier = require('prettier')
 
-const PROVIDERS = ['bigcommerce', 'shopify', 'swell', 'vendure']
+const PROVIDERS = [
+  'bigcommerce',
+  'shopify',
+  'swell',
+  'vendure',
+  'commercelayer',
+]
 
 function getProviderName() {
   return (
@@ -18,6 +24,8 @@ function getProviderName() {
       ? 'shopify'
       : process.env.NEXT_PUBLIC_SWELL_STORE_ID
       ? 'swell'
+      : process.env.COMMERCELAYER_CLIENT_ID
+      ? 'commercelayer'
       : null)
   )
 }
