@@ -16,17 +16,10 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-<<<<<<< HEAD
-"@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.14.5":
-  version "7.14.5"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
-  integrity sha512-9pzDqyc6OLDaqe+zbACgFkb6fKMNG6CObKpnYXChRsvYGyEdc7CA2BaqeOM+vOtCS5ndmJicPJhKAwYRI6UfFw==
-=======
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13":
   version "7.12.13"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.13.tgz"
   integrity sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g==
->>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
   dependencies:
     "@babel/highlight" "^7.14.5"
 
@@ -36,21 +29,6 @@
   integrity sha512-kixrYn4JwfAVPa0f2yfzc2AWti6WRRyO3XjWW5PJAvtE11qhSayrrcrEnee05KAtNaPC+EwehE8Qt1UedEVB8w==
 
 "@babel/core@^7.0.0":
-<<<<<<< HEAD
-  version "7.14.6"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.14.6.tgz#e0814ec1a950032ff16c13a2721de39a8416fcab"
-  integrity sha512-gJnOEWSqTk96qG5BoIrl5bVtc23DCycmIePPYnamY9RboYdI4nFy5vAQMSl81O5K/W0sLDWfGysnOECC+KUUCA==
-  dependencies:
-    "@babel/code-frame" "^7.14.5"
-    "@babel/generator" "^7.14.5"
-    "@babel/helper-compilation-targets" "^7.14.5"
-    "@babel/helper-module-transforms" "^7.14.5"
-    "@babel/helpers" "^7.14.6"
-    "@babel/parser" "^7.14.6"
-    "@babel/template" "^7.14.5"
-    "@babel/traverse" "^7.14.5"
-    "@babel/types" "^7.14.5"
-=======
   version "7.12.16"
   resolved "https://registry.npmjs.org/@babel/core/-/core-7.12.16.tgz"
   integrity sha512-t/hHIB504wWceOeaOoONOhu+gX+hpjfeN6YRBT209X/4sibZQfSF1I0HFRRlBe97UZZosGx5XwUg1ZgNbelmNw==
@@ -63,7 +41,6 @@
     "@babel/template" "^7.12.13"
     "@babel/traverse" "^7.12.13"
     "@babel/types" "^7.12.13"
->>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
     convert-source-map "^1.7.0"
     debug "^4.1.0"
     gensync "^1.0.0-beta.2"
@@ -71,17 +48,10 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-<<<<<<< HEAD
 "@babel/generator@^7.12.13", "@babel/generator@^7.14.5", "@babel/generator@^7.5.0":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.14.5.tgz#848d7b9f031caca9d0cd0af01b063f226f52d785"
   integrity sha512-y3rlP+/G25OIX3mYKKIOlQRcqj7YgrvHxOLbVmyLJ9bPmi5ttvUmpydVjcFjZphOktWuA7ovbx91ECloWTfjIA==
-=======
-"@babel/generator@^7.12.13", "@babel/generator@^7.12.15", "@babel/generator@^7.5.0":
-  version "7.12.15"
-  resolved "https://registry.npmjs.org/@babel/generator/-/generator-7.12.15.tgz"
-  integrity sha512-6F2xHxBiFXWNSGb7vyCUTBF8RCLY66rS0zEPcP8t/nQyXjha5EuK4z7H5o7fWG8B4M7y6mqVWq1J+1PuwRhecQ==
->>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
   dependencies:
     "@babel/types" "^7.14.5"
     jsesc "^2.5.1"
@@ -376,7 +346,10 @@
   integrity sha512-z7n7ybOUzaRc3wwqLpAX8UFIXsrVXUJhtNGBwAnLz6d1KUapqyq7ad2La8gZ6CXhHmGAIL32cop8Tst4/PNWLw==
 
 "@babel/parser@^7.12.16":
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   version "7.12.16"
   resolved "https://registry.npmjs.org/@babel/parser/-/parser-7.12.16.tgz"
   integrity sha512-c/+u9cqV6F0+4Hpq01jnJO+GLp2DdT63ppz9Xa+6cHaajM9VFzK/iDXiKK65YtpeVwu+ctfS6iqlMqRgQRzeCw==
@@ -759,6 +732,7 @@
     regenerator-runtime "^0.13.2"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.12.13", "@babel/runtime@^7.14.0":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
@@ -771,6 +745,8 @@
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.14.5.tgz#a9bc9d8b33354ff6e55a9c60d1109200a68974f4"
   integrity sha512-6Z3Po85sfxRGachLULUhOmvAaOo7xCvqGQtxINai2mEGPFm6pQ4z5QInFnUrRpfoSV60BnjyF5F3c+15fxFV1g==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 "@babel/runtime@^7.12.13", "@babel/runtime@^7.13.10":
   version "7.13.10"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.13.10.tgz"
@@ -843,6 +819,7 @@
     to-fast-properties "^2.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@babel/types@^7.0.0", "@babel/types@^7.12.13", "@babel/types@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.5.tgz#3bb997ba829a2104cedb20689c4a5b8121d383ff"
@@ -851,6 +828,8 @@
     "@babel/helper-validator-identifier" "^7.14.5"
     to-fast-properties "^2.0.0"
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 "@commercelayer/active-resource@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@commercelayer/active-resource/-/active-resource-1.0.2.tgz#6415103274060952a6db4d4206927d10b5755343"
@@ -877,7 +856,10 @@
     axios "^0.21.1"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -1484,11 +1466,14 @@
   integrity sha512-qtBF56vPC6d6a8p7LYd0iRjW89fhY80kAIzmj+VonvIGjK/nymBjcFUhbKiMFqlhsarCksnhwX+Zmn95Dw9qvA==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
   integrity sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz"
@@ -1828,6 +1813,7 @@
   integrity sha512-12Le/iXPynrONntux/OaXf9+yx0zbMBKhwywdej9mfR8YhXB82pPZYzU3o6j8cjK1uCQ/wWkqLTftpaXpeMKig==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "@types/websocket@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/websocket/-/websocket-1.0.2.tgz#d2855c6a312b7da73ed16ba6781815bf30c6187a"
@@ -1845,6 +1831,8 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-4.27.0.tgz#189a7b9f1d0717d5cccdcc17247692dedf7a09da"
   integrity sha512-KH03GUsUj41sRLLEy2JHstnezgpS5VNhrJouRdmh6yNdQ+yl8w5LrSwBkExM+jWwCJa7Ct2c8yl8NdtNRyQO6g==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 "@types/tough-cookie@^2.3.5":
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-2.3.7.tgz#979434b5900f9d710f5d4e15c466cadb8e9fdc47"
@@ -2507,6 +2495,7 @@ browserslist@4.16.6, browserslist@^4.12.0, browserslist@^4.16.1, browserslist@^4
   integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
   dependencies:
 <<<<<<< HEAD
+<<<<<<< HEAD
     caniuse-lite "^1.0.30001173"
     colorette "^1.2.1"
     electron-to-chromium "^1.3.634"
@@ -2520,6 +2509,8 @@ browserslist@^4.12.0, browserslist@^4.16.6, browserslist@^4.6.4:
   dependencies:
 =======
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
     caniuse-lite "^1.0.30001219"
     colorette "^1.2.2"
     electron-to-chromium "^1.3.723"
@@ -2592,7 +2583,10 @@ byte-length@^1.0.2:
   resolved "https://registry.yarnpkg.com/byte-length/-/byte-length-1.0.2.tgz#ba5a5909240b0121c079b7f7b15248d6f08223cc"
   integrity sha512-ovBpjmsgd/teRmgcPh23d4gJvxDoXtAzEL9xTfMU8Yc2kqCDb7L9jAG0XHl1nzuGl+h3ebCIF1i62UFyA9V/2Q==
 
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 bytes@3.1.0, bytes@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.1.0.tgz"
@@ -2667,6 +2661,7 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173, caniuse-lite@^1.0.30001179, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001230:
   version "1.0.30001237"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001237.tgz#4b7783661515b8e7151fc6376cfd97f0e427b9e5"
@@ -2681,11 +2676,16 @@ capital-case@^1.0.4:
     tslib "^2.0.3"
     upper-case-first "^2.0.2"
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001181, caniuse-lite@^1.0.30001202, caniuse-lite@^1.0.30001219, caniuse-lite@^1.0.30001228:
   version "1.0.30001235"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001235.tgz"
   integrity sha512-zWEwIVqnzPkSAXOUlQnPW2oKoYb2aLQ4Q5ejdjBcnH63rfypaW34CxaeBn1VMya2XaEU3P/R2qHpWyj+l0BT1A==
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -3653,16 +3653,22 @@ ecdsa-sig-formatter@1.0.11:
     safe-buffer "^5.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 electron-to-chromium@^1.3.634, electron-to-chromium@^1.3.723:
   version "1.3.752"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.752.tgz#0728587f1b9b970ec9ffad932496429aef750d09"
   integrity sha512-2Tg+7jSl3oPxgsBsWKh5H83QazTkmWG/cnNwJplmyZc7KcN61+I10oUgaXSVk/NwfvN3BdkKDR4FYuRBQQ2v0A==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 electron-to-chromium@^1.3.723:
   version "1.3.749"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.749.tgz"
   integrity sha512-F+v2zxZgw/fMwPz/VUGIggG4ZndDsYy0vlpthi3tjmDZlcfbhN5mYW0evXUsBr2sUtuDANFtle410A9u/sd/4A==
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
@@ -3750,11 +3756,14 @@ error-ex@^1.3.1:
     is-arrayish "^0.2.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 es-abstract@^1.18.0-next.1:
   version "1.18.3"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.18.3.tgz#25c4c3380a27aa203c44b2b685bba94da31b63e0"
   integrity sha512-nQIr12dxV7SSxE6r6f1l3DtAeEYdsGpps13dR0TwJg1S8gyp4ZPgy3FZcHBgbiQqnoqSTb+oC+kO4UQ0C/J8vw==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2:
   version "1.18.0-next.2"
   resolved "https://registry.npmjs.org/es-abstract/-/es-abstract-1.18.0-next.2.tgz"
@@ -4122,11 +4131,14 @@ flatten@^1.0.2:
   integrity sha512-dVsPA/UwQ8+2uoFe5GHtiBMu48dWLTdsuEd7CKGlZlD78r1TTWBvDuFaFGKCo/ZfEr95Uk56vZoX86OsHkUeIg==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 form-data@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
   integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 follow-redirects@^1.10.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
@@ -4889,6 +4901,7 @@ is-interactive@^1.0.0:
   integrity sha512-2HvIEKRoqS62guEC+qBjpvRubdX910WCMuJTZ+I9yvqKU2/12eSL549HMwtabb4oupdj2sMP50k+XJfB/8JE6w==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 is-lower-case@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/is-lower-case/-/is-lower-case-2.0.2.tgz#1c0884d3012c841556243483aa5d522f47396d2a"
@@ -4896,6 +4909,8 @@ is-lower-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 is-nan@^1.2.1:
   version "1.3.2"
   resolved "https://registry.npmjs.org/is-nan/-/is-nan-1.3.2.tgz"
@@ -4903,7 +4918,10 @@ is-nan@^1.2.1:
   dependencies:
     call-bind "^1.0.0"
     define-properties "^1.1.3"
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 is-negative-zero@^2.0.1:
   version "2.0.1"
@@ -5022,6 +5040,17 @@ is-typed-array@^1.1.3:
     foreach "^2.0.5"
     has-symbols "^1.0.1"
 
+is-typed-array@^1.1.3:
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.5.tgz"
+  integrity sha512-S+GRDgJlR3PyEbsX/Fobd9cqpZBuvUS+8asRqYDMLCb2qMzt1oz5m5oxQCxOgUDxiWsOVNi4yaF+/uvdlHlYug==
+  dependencies:
+    available-typed-arrays "^1.0.2"
+    call-bind "^1.0.2"
+    es-abstract "^1.18.0-next.2"
+    foreach "^2.0.5"
+    has-symbols "^1.0.1"
+
 is-unc-path@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/is-unc-path/-/is-unc-path-1.0.0.tgz"
@@ -5062,6 +5091,7 @@ isexe@^2.0.0:
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -5069,6 +5099,8 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 isobject@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/isobject/-/isobject-4.0.0.tgz"
@@ -5104,6 +5136,7 @@ isomorphic-ws@4.0.1:
   integrity sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 iterall@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
@@ -5114,11 +5147,16 @@ jest-worker@24.9.0:
   resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-24.9.0.tgz#5dbfdb5b2d322e98567898238a9697bcce67b3e5"
   integrity sha512-51PE4haMSXcHohnSMdM42anbvZANYTqMrr52tVKPqqsPJMzoP6FYYDVqahX/HrAoKEKz3uUPzSvKs9A3qR4iVw==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 jest-worker@27.0.0-next.5:
   version "27.0.0-next.5"
   resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-27.0.0-next.5.tgz"
   integrity sha512-mk0umAQ5lT+CaOJ+Qp01N6kz48sJG2kr2n1rX0koqKf6FIygQV0qLOdN9SCYID4IVeSigDOcPeGLozdMLYfb5g==
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -5536,10 +5574,14 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 lodash@4.17.21, lodash@^4.17.13, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@~4.17.0:
 =======
 lodash@4.17.21, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@~4.17.20:
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+lodash@4.17.21, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@~4.17.20:
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -5952,6 +5994,7 @@ mute-stream@0.0.8:
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 nanoid@^3.1.16, nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
@@ -5960,6 +6003,11 @@ nanoid@^3.1.20, nanoid@^3.1.22:
   version "3.1.23"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz"
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+nanoid@^3.1.20, nanoid@^3.1.22:
+  version "3.1.23"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz"
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
 
 native-url@0.3.4:
@@ -6006,16 +6054,22 @@ next-unused@^0.0.3:
     typescript "^4.2.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 next@10.0.9-canary.5:
   version "10.0.9-canary.5"
   resolved "https://registry.yarnpkg.com/next/-/next-10.0.9-canary.5.tgz#969dfb3b4646736db1144fb965d4af3e83fa6ff2"
   integrity sha512-wIqEpQe9gKxwBZZHQgDGuztNlfv6/opIjf6nFYf7Iimw4SnNprPJWpEKrqF3JVxMoLawI6tafMwsYg1TQNZM7A==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 next@^10.0.9-canary.5:
   version "10.2.3"
   resolved "https://registry.npmjs.org/next/-/next-10.2.3.tgz"
   integrity sha512-dkM1mIfnORtGyzw/Yme8RdqNxlCMZyi4Lqj56F01/yHbe1ZtOaJ0cyqqRB4RGiPhjGGh0319f8ddjDyO1605Ow==
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   dependencies:
     "@babel/runtime" "7.12.5"
     "@hapi/accept" "5.0.2"
@@ -6130,6 +6184,7 @@ node-libs-browser@^2.2.1:
     vm-browserify "^1.0.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 node-releases@^1.1.69, node-releases@^1.1.71:
   version "1.1.73"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
@@ -6138,6 +6193,11 @@ node-releases@^1.1.71:
   version "1.1.73"
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.73.tgz"
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+node-releases@^1.1.71:
+  version "1.1.73"
+  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.73.tgz"
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
 
 node-source-walk@^4.0.0, node-source-walk@^4.2.0:
@@ -6235,6 +6295,14 @@ object-inspect@^1.9.0:
   resolved "https://registry.npmjs.org/object-inspect/-/object-inspect-1.9.0.tgz"
   integrity sha512-i3Bp9iTqwhaLZBxGkRfo5ZbE07BQRT7MGu8+nNgwW9ItGp1TzCTw2DLEoWwjClxBjOFI/hWljTAmYGCEwmtnOw==
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+
+object-is@^1.0.1:
+  version "1.1.5"
+  resolved "https://registry.npmjs.org/object-is/-/object-is-1.1.5.tgz"
+  integrity sha512-3cyDsyHgtmi7I7DfSSI2LDp6SK2lwvtbg0p0R1e0RvTqF5ceGx+K2dfSjm1bKDMVCFEDAQvy+o8c6a7VujOddw==
+  dependencies:
+    call-bind "^1.0.2"
+    define-properties "^1.1.3"
 
 object-is@^1.0.1:
   version "1.1.5"
@@ -6367,7 +6435,10 @@ original@^1.0.0:
     url-parse "^1.4.3"
 
 os-browserify@0.3.0, os-browserify@^0.3.0:
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
   version "0.3.0"
   resolved "https://registry.npmjs.org/os-browserify/-/os-browserify-0.3.0.tgz"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
@@ -6383,7 +6454,10 @@ p-cancelable@^1.0.0:
   integrity sha512-s73XxOZ4zpt1edZYZzvhqFa6uvQc1vwUa0K0BdtIZgQMAJj9IbebH+JkgKZc9h+B05PKHLOTl4ajG1BmNrVZlw==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 p-limit@3.0.2, p-limit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/p-limit/-/p-limit-3.0.2.tgz"
@@ -6391,7 +6465,10 @@ p-limit@3.0.2, p-limit@^3.0.2:
   dependencies:
     p-try "^2.0.0"
 
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 p-limit@3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz"
@@ -7137,6 +7214,7 @@ postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.26, postcss@^7.0.
     supports-color "^6.1.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 postcss@^8.1.6, postcss@^8.1.7, postcss@^8.2.1, postcss@^8.3.0:
   version "8.3.4"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.4.tgz#41ece1c43f2f7c74dc7d90144047ce052757b822"
@@ -7151,6 +7229,8 @@ precinct@^7.0.0:
   resolved "https://registry.yarnpkg.com/precinct/-/precinct-7.1.0.tgz#a0311e0b59029647eaf57c2d30b8efa9c85d129a"
   integrity sha512-I1RkW5PX51/q6Xl39//D7x9NgaKNGHpR5DCNaoxP/b2+KbzzXDNhauJUMV17KSYkJA41CSpwYUPRtRoNxbshWA==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.8:
   version "8.2.8"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz"
@@ -7829,7 +7909,10 @@ servie@^4.3.3:
     "@servie/events" "^1.0.0"
     byte-length "^1.0.2"
     ts-expect "^1.1.0"
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 set-blocking@^2.0.0:
   version "2.0.0"
@@ -7885,8 +7968,11 @@ shopify-buy@^2.11.0:
   integrity sha512-bGjS1b/VCPvCjazSstlKwgLtK1WBotWom06/12loja8yfo/cWkLuJsakBbQe1uEIDiOLhKaR0M0CAXZFheYDug==
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 signal-exit@^3.0.2, signal-exit@^3.0.3:
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"
@@ -8320,6 +8406,7 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 swap-case@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/swap-case/-/swap-case-2.0.2.tgz#671aedb3c9c137e2985ef51c51f9e98445bf70d9"
@@ -8327,13 +8414,18 @@ swap-case@^2.0.2:
   dependencies:
     tslib "^2.0.3"
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 supports-color@^8.0.0:
   version "8.1.1"
   resolved "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz"
   integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
   dependencies:
     has-flag "^4.0.0"
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 
 swell-js@^4.0.0-next.0:
   version "4.0.0-next.0"
@@ -8536,7 +8628,10 @@ ts-expect@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-expect/-/ts-expect-1.3.0.tgz#3f8d3966e0e22b5e2bb88337eb99db6816a4c1cf"
   integrity sha512-e4g0EJtAjk64xgnFPD6kTBUtpnMVzDrMb12N1YZV0VvSlhnVT3SGxiYTLdGy8Q5cYHOIC/FAHmZ10eGrAguicQ==
 
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 ts-loader@^7.0.0:
   version "7.0.5"
   resolved "https://registry.npmjs.org/ts-loader/-/ts-loader-7.0.5.tgz"
@@ -8742,11 +8837,14 @@ unpipe@1.0.0:
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 upper-case-first@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/upper-case-first/-/upper-case-first-2.0.2.tgz#992c3273f882abd19d1e02894cc147117f844324"
   integrity sha512-514ppYHBaKwfJRK/pNC6c/OxfGa0obSnAl106u97Ed0I625Nin96KAjttZF6ZL3e1XLtphxnqrOi9iWgm+u+bg==
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 upper-case@2.0.1, upper-case@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/upper-case/-/upper-case-2.0.1.tgz"
@@ -8981,7 +9079,10 @@ which-typed-array@^1.1.2:
     has-symbols "^1.0.1"
     is-typed-array "^1.1.3"
 
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 which@^2.0.1:
   version "2.0.2"
   resolved "https://registry.npmjs.org/which/-/which-2.0.2.tgz"
@@ -9026,6 +9127,7 @@ wrappy@1:
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ws@7.4.5:
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.5.tgz#a484dd851e9beb6fdb420027e3885e8ce48986c1"
@@ -9037,12 +9139,17 @@ ws@7.4.5:
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 =======
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 ws@7.4.2, ws@^7.3.1:
   version "7.4.2"
   resolved "https://registry.npmjs.org/ws/-/ws-7.4.2.tgz"
   integrity sha512-T4tewALS3+qsrpGI/8dqNMLIVdq/g/85U98HPMa6F0m6xTbvhXU6RCQLqPH3+SlomNV/LdY6RXEbBpMH6EOJnA==
 
+<<<<<<< HEAD
 >>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+=======
+>>>>>>> f0fd0d22f7b7875fb56272bfb870706eab410b97
 xtend@^4.0.0, xtend@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"

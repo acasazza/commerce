@@ -9,18 +9,12 @@ const prettier = require('prettier')
 
 const PROVIDERS = [
   'bigcommerce',
-<<<<<<< HEAD
   'saleor',
   'shopify',
   'swell',
   'vendure',
   'local',
-=======
-  'shopify',
-  'swell',
-  'vendure',
   'commercelayer',
->>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
 ]
 
 function getProviderName() {
@@ -32,13 +26,9 @@ function getProviderName() {
       ? 'shopify'
       : process.env.NEXT_PUBLIC_SWELL_STORE_ID
       ? 'swell'
-<<<<<<< HEAD
-      : 'local')
-=======
       : process.env.COMMERCELAYER_CLIENT_ID
       ? 'commercelayer'
-      : null)
->>>>>>> f75b673 (feat(provider): add commercelayer provider folder)
+      : local)
   )
 }
 
