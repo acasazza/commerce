@@ -1,0 +1,6 @@
+{
+  "provider": "commercelayer",
+  "features": {
+    "wishlist": true
+  }
+}
