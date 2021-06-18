@@ -53,27 +53,20 @@ if (!MARKET_SCOPE) {
   )
 }
 
-let TOKEN = ''
-async function getAccessToken() {
+export async function getAccessToken() {
   const token = await getToken({
     clientId: CLIENT_ID,
     endpoint: ENDPOINT,
     scope: MARKET_SCOPE,
   })
-  TOKEN = token
-}
-
-if (!TOKEN) {
-  throw new Error(
-    `Your access token is missing and it's required to access your store`
-  )
+  return token
 }
 
 const ONE_DAY = 60 * 60 * 24
 
 const config: CommercelayerConfig = {
   storeApiUrl: ENDPOINT,
-  storeApiToken: TOKEN,
+  storeApiToken: '',
   storeApiClientId: CLIENT_ID,
   cartCookie: '',
   cartCookieMaxAge: ONE_DAY * 30,
