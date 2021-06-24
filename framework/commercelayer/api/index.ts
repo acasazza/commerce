@@ -3,7 +3,8 @@ import {
   CommerceAPIConfig,
   getCommerceApi as commerceApi,
 } from '@commerce/api'
-import fetchStoreApi from './utils/fetch-api'
+import createFetchStoreApi from './utils/fetch-api'
+import type { RequestInit } from '@vercel/fetch'
 
 import type { CartAPI } from './endpoints/cart'
 import type { CustomerAPI } from './endpoints/customer'
@@ -65,12 +66,15 @@ export async function getAccessToken() {
 const ONE_DAY = 60 * 60 * 24
 
 const config: CommercelayerConfig = {
+  commerceUrl: '',
+  apiToken: '',
+  customerCookie: '',
   storeApiUrl: ENDPOINT,
   storeApiToken: '',
   storeApiClientId: CLIENT_ID,
   cartCookie: '',
   cartCookieMaxAge: ONE_DAY * 30,
-  storeApiFetch: fetchStoreApi(() => getCommerceApi().getConfig()),
+  storeApiFetch: createFetchStoreApi(() => getCommerceApi().getConfig()),
 }
 
 const operations = {
